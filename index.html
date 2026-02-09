@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Gabriel Furiati | Engenharia de Recursos Hídricos + Dados & IA">
+  <title>Gabriel Furiati | Engenharia de Recursos Hídricos + Dados & IA</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <!-- Navbar -->
+  <header class="navbar" id="navbar">
+    <nav class="navbar__inner container">
+      <a href="#" class="navbar__logo">Furiati</a>
+      <button class="navbar__toggle" id="nav-toggle" aria-label="Abrir menu" aria-expanded="false">
+        <span class="navbar__toggle-icon"></span>
+      </button>
+      <ul class="navbar__links" id="nav-links">
+        <li><a href="#about" data-i18n="nav.about">Sobre</a></li>
+        <li><a href="#experience" data-i18n="nav.experience">Experiência</a></li>
+        <li><a href="#projects" data-i18n="nav.projects">Projetos</a></li>
+        <li><a href="#skills" data-i18n="nav.skills">Habilidades</a></li>
+        <li><a href="#contact" data-i18n="nav.contact">Contato</a></li>
+      </ul>
+      <button class="navbar__lang" id="lang-toggle" aria-label="Mudar para inglês">
+        <span data-i18n="lang.toggle">EN</span>
+      </button>
+    </nav>
+  </header>
+
+  <main>
+    <!-- Hero -->
+    <section class="hero" id="hero">
+      <div class="container hero__inner">
+        <p class="hero__greeting" data-i18n="hero.greeting">Olá, eu sou</p>
+        <h1 class="hero__name" data-i18n="hero.name">Gabriel Furiati</h1>
+        <p class="hero__tagline" data-i18n="hero.tagline">Engenharia de Recursos Hídricos + Dados & IA</p>
+        <p class="hero__description" data-i18n="hero.description">Junto conhecimento de campo em hidrologia e segurança de barragens com programação e IA para automatizar o que ninguém quer fazer na mão.</p>
+        <a href="#projects" class="hero__cta btn" data-i18n="hero.cta">Ver o que eu faço</a>
+      </div>
+    </section>
+
+    <!-- About -->
+    <section class="section" id="about">
+      <div class="container">
+        <h2 class="section__title" data-i18n="about.title">Sobre mim</h2>
+        <div class="about__content">
+          <p data-i18n="about.p1">Estudo Engenharia de Recursos Hídricos e do Meio Ambiente na UFF (8° período) e sou Analista na Gerência de Segurança Hídrica (GERSEG) do INEA, onde atuo nas duas frentes: monitoramento hidrológico (SERVHIDR) e segurança de barragens (SERVRISB).</p>
+          <p data-i18n="about.p2">Comecei como estagiário fazendo consistência de dados e apoio a estudos de seca. Quando vi que a equipe perdia horas coletando dados manualmente de múltiplas fontes, construí scrapers em Python que resolveram o problema. Desde então, passei a aplicar automação, dashboards e IA no fluxo de trabalho da gerência.</p>
+          <p data-i18n="about.p3">Fora do INEA, sou Presidente da Agrha Consultoria (empresa júnior de consultoria ambiental da UFF) e bolsista da FEC, onde trabalho como analista de dados em pesquisa sobre assentamentos rurais com dados do Censo INCRA 2025.</p>
+          <p data-i18n="about.p4">Meu interesse é aplicar esse perfil a desafios cada vez maiores: usar dados, automação e IA para resolver problemas reais de engenharia.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Experience -->
+    <section class="section section--alt" id="experience">
+      <div class="container">
+        <h2 class="section__title" data-i18n="experience.title">Experiência</h2>
+        <div class="timeline">
+          <!-- INEA -->
+          <article class="timeline__item">
+            <div class="timeline__marker"></div>
+            <div class="timeline__content">
+              <h3 class="timeline__role" data-i18n="exp1.role">Analista de Recursos Hídricos e Segurança de Barragens</h3>
+              <p class="timeline__org" data-i18n="exp1.org">INEA | Gerência de Segurança Hídrica (GERSEG)</p>
+              <p class="timeline__period" data-i18n="exp1.period">Estagiário desde mar/2025 · Efetivado em out/2025</p>
+              <ul class="timeline__list">
+                <li data-i18n="exp1.item1">Análise de dados de nível, vazão e precipitação, identificação de falhas em séries históricas e aplicação de curvas-chave</li>
+                <li data-i18n="exp1.item2">Apoio à tomada de decisão em cenários críticos de abastecimento, acompanhamento de reservatórios e gestão de risco de barragens</li>
+                <li data-i18n="exp1.item3">Scrapers em Python para coleta automatizada de dados de múltiplas fontes públicas (ANA, INMET, estações)</li>
+                <li data-i18n="exp1.item4">Aplicação de automação e IA no fluxo de trabalho da gerência</li>
+              </ul>
+            </div>
+          </article>
+
+          <!-- Agrha -->
+          <article class="timeline__item">
+            <div class="timeline__marker"></div>
+            <div class="timeline__content">
+              <h3 class="timeline__role" data-i18n="exp2.role">Presidente</h3>
+              <p class="timeline__org" data-i18n="exp2.org">Agrha Consultoria | Empresa Júnior (UFF)</p>
+              <p class="timeline__period" data-i18n="exp2.period">Assessor de marketing (mar/2025) → Diretor de Gente e Gestão (jul/2025) → Presidente (jan/2026)</p>
+              <ul class="timeline__list">
+                <li data-i18n="exp2.item1">Gestão estratégica, institucional e operacional da empresa júnior</li>
+                <li data-i18n="exp2.item2">Coordenação das diretorias e relacionamento com parceiros e clientes</li>
+                <li data-i18n="exp2.item3">De assessor a presidente em 10 meses</li>
+              </ul>
+            </div>
+          </article>
+
+          <!-- INCRA -->
+          <article class="timeline__item">
+            <div class="timeline__marker"></div>
+            <div class="timeline__content">
+              <h3 class="timeline__role" data-i18n="exp3.role">Analista de Dados, Bolsista FEC</h3>
+              <p class="timeline__org" data-i18n="exp3.org">Iniciação Científica | INCRA/UFF</p>
+              <p class="timeline__period" data-i18n="exp3.period">Desde set/2025</p>
+              <ul class="timeline__list">
+                <li data-i18n="exp3.item1">Tratamento, organização e análise de bases de dados do Censo de Assentamentos 2025</li>
+                <li data-i18n="exp3.item2">Desenvolvimento de visualizações e elaboração de relatórios técnicos</li>
+              </ul>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects -->
+    <section class="section" id="projects">
+      <div class="container">
+        <h2 class="section__title" data-i18n="projects.title">Projetos</h2>
+        <div class="projects__grid">
+          <!-- Project 1 | Scraper -->
+          <article class="card">
+            <div class="card__badge card__badge--live" data-i18n="project1.status">Usado em produção no INEA</div>
+            <h3 class="card__title" data-i18n="project1.title">Scraper Hidrológico Multifonte</h3>
+            <p class="card__description" data-i18n="project1.description">Sistema de coleta automatizada de dados hidrológicos e meteorológicos de múltiplas fontes públicas, substituindo horas de trabalho manual dos analistas do INEA.</p>
+            <div class="card__tags">
+              <span class="tag" data-i18n="project1.tag1">Python</span>
+              <span class="tag" data-i18n="project1.tag2">BeautifulSoup</span>
+              <span class="tag" data-i18n="project1.tag3">requests</span>
+              <span class="tag" data-i18n="project1.tag4">pandas</span>
+            </div>
+            <a href="#" class="card__link" data-i18n="projects.soon">Em breve</a>
+          </article>
+
+          <!-- Project 2 | Dashboard -->
+          <article class="card">
+            <div class="card__badge" data-i18n="project2.status">Em desenvolvimento</div>
+            <h3 class="card__title" data-i18n="project2.title">Dashboard Hidrológico</h3>
+            <p class="card__description" data-i18n="project2.description">Aplicação web para visualização interativa de dados de vazão, níveis e precipitação, integrando as fontes coletadas pelo scraper.</p>
+            <div class="card__tags">
+              <span class="tag" data-i18n="project2.tag1">Python</span>
+              <span class="tag" data-i18n="project2.tag2">Streamlit</span>
+              <span class="tag" data-i18n="project2.tag3">Plotly</span>
+              <span class="tag" data-i18n="project2.tag4">APIs</span>
+            </div>
+            <a href="#" class="card__link" data-i18n="projects.soon">Em breve</a>
+          </article>
+
+          <!-- Project 3 | INCRA -->
+          <article class="card">
+            <h3 class="card__title" data-i18n="project3.title">Análise de Dados: Censo INCRA 2025</h3>
+            <p class="card__description" data-i18n="project3.description">Pipeline de limpeza e análise estatística dos dados do censo de assentamentos rurais, como parte de pesquisa acadêmica na UFF.</p>
+            <div class="card__tags">
+              <span class="tag" data-i18n="project3.tag1">Python</span>
+              <span class="tag" data-i18n="project3.tag2">pandas</span>
+              <span class="tag" data-i18n="project3.tag3">Power BI</span>
+            </div>
+            <a href="#" class="card__link" data-i18n="projects.soon">Em breve</a>
+          </article>
+
+          <!-- Project 4 | Sensor Data QC -->
+          <article class="card">
+            <div class="card__badge card__badge--live" data-i18n="project4.status">Live demo</div>
+            <h3 class="card__title" data-i18n="project4.title">Sensor Data QC Tool</h3>
+            <p class="card__description" data-i18n="project4.description">Ferramenta interativa de controle de qualidade para séries temporais de sensores. Detecta gaps, outliers e drift, limpa os dados e exporta CSV corrigido com relatório.</p>
+            <div class="card__tags">
+              <span class="tag" data-i18n="project4.tag1">Python</span>
+              <span class="tag" data-i18n="project4.tag2">Streamlit</span>
+              <span class="tag" data-i18n="project4.tag3">Plotly</span>
+              <span class="tag" data-i18n="project4.tag4">pandas</span>
+            </div>
+            <a href="https://sensor-data-qc.streamlit.app" target="_blank" rel="noopener noreferrer" class="card__link" data-i18n="projects.demo">Ver demo</a>
+          </article>
+
+          <!-- Project 5 | Offshore Weather Downtime -->
+          <article class="card">
+            <div class="card__badge card__badge--live" data-i18n="project5.status">Live demo</div>
+            <h3 class="card__title" data-i18n="project5.title">Downtime Offshore - Costa do RJ</h3>
+            <p class="card__description" data-i18n="project5.description">Dashboard com dados reais do INMET (2019-2024) que analisa quantos dias por ano as condições climáticas impedem operações offshore na costa do Rio de Janeiro.</p>
+            <div class="card__tags">
+              <span class="tag" data-i18n="project5.tag1">Python</span>
+              <span class="tag" data-i18n="project5.tag2">Streamlit</span>
+              <span class="tag" data-i18n="project5.tag3">Plotly</span>
+              <span class="tag" data-i18n="project5.tag4">INMET</span>
+            </div>
+            <a href="https://offshore-weather-downtime.streamlit.app" target="_blank" rel="noopener noreferrer" class="card__link" data-i18n="projects.demo">Ver demo</a>
+          </article>
+
+          <!-- Project 6 | ANP Production Analysis -->
+          <article class="card">
+            <div class="card__badge card__badge--live" data-i18n="project6.status">Live demo</div>
+            <h3 class="card__title" data-i18n="project6.title">ANP Production Analysis</h3>
+            <p class="card__description" data-i18n="project6.description">Análise de produção de petróleo e gás com dados públicos da ANP. Decline curve analysis (Arps), detecção de anomalias e comparação de ramp-up entre campos offshore.</p>
+            <div class="card__tags">
+              <span class="tag" data-i18n="project6.tag1">Python</span>
+              <span class="tag" data-i18n="project6.tag2">scipy</span>
+              <span class="tag" data-i18n="project6.tag3">Streamlit</span>
+              <span class="tag" data-i18n="project6.tag4">ANP</span>
+            </div>
+            <a href="https://github.com/Furiatii/anp-production-analysis" target="_blank" rel="noopener noreferrer" class="card__link" data-i18n="projects.github">Ver no GitHub</a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills -->
+    <section class="section section--alt" id="skills">
+      <div class="container">
+        <h2 class="section__title" data-i18n="skills.title">Habilidades</h2>
+        <div class="skills__categories">
+          <!-- Programming -->
+          <div class="skills__category">
+            <h3 class="skills__category-title" data-i18n="skills.languages">Programação</h3>
+            <div class="skills__grid">
+              <div class="skill">
+                <svg class="skill__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="16 18 22 12 16 6"></polyline><polyline points="8 6 2 12 8 18"></polyline></svg>
+                <span class="skill__name">Python</span>
+              </div>
+              <div class="skill">
+                <svg class="skill__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="16 18 22 12 16 6"></polyline><polyline points="8 6 2 12 8 18"></polyline></svg>
+                <span class="skill__name">SQL</span>
+              </div>
+              <div class="skill">
+                <svg class="skill__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="16 18 22 12 16 6"></polyline><polyline points="8 6 2 12 8 18"></polyline></svg>
+                <span class="skill__name">VBA</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Data & Visualization -->
+          <div class="skills__category">
+            <h3 class="skills__category-title" data-i18n="skills.data">Dados & Visualização</h3>
+            <div class="skills__grid">
+              <div class="skill">
+                <svg class="skill__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="18" y1="20" x2="18" y2="10"></line><line x1="12" y1="20" x2="12" y2="4"></line><line x1="6" y1="20" x2="6" y2="14"></line></svg>
+                <span class="skill__name">pandas</span>
+              </div>
+              <div class="skill">
+                <svg class="skill__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="18" y1="20" x2="18" y2="10"></line><line x1="12" y1="20" x2="12" y2="4"></line><line x1="6" y1="20" x2="6" y2="14"></line></svg>
+                <span class="skill__name">Plotly</span>
+              </div>
+              <div class="skill">
+                <svg class="skill__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="18" y1="20" x2="18" y2="10"></line><line x1="12" y1="20" x2="12" y2="4"></line><line x1="6" y1="20" x2="6" y2="14"></line></svg>
+                <span class="skill__name">Power BI</span>
+              </div>
+              <div class="skill">
+                <svg class="skill__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="18" y1="20" x2="18" y2="10"></line><line x1="12" y1="20" x2="12" y2="4"></line><line x1="6" y1="20" x2="6" y2="14"></line></svg>
+                <span class="skill__name">Excel Avançado</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- AI & Automation -->
+          <div class="skills__category">
+            <h3 class="skills__category-title" data-i18n="skills.ai">IA & Automação</h3>
+            <div class="skills__grid">
+              <div class="skill">
+                <svg class="skill__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2a2 2 0 0 1 2 2c0 .74-.4 1.39-1 1.73V7h1a7 7 0 0 1 7 7h1a1 1 0 0 1 1 1v3a1 1 0 0 1-1 1h-1v1a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-1H2a1 1 0 0 1-1-1v-3a1 1 0 0 1 1-1h1a7 7 0 0 1 7-7h1V5.73c-.6-.34-1-.99-1-1.73a2 2 0 0 1 2-2z"></path><circle cx="8.5" cy="14.5" r="1.5"></circle><circle cx="15.5" cy="14.5" r="1.5"></circle></svg>
+                <span class="skill__name">Claude Code</span>
+              </div>
+              <div class="skill">
+                <svg class="skill__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2a2 2 0 0 1 2 2c0 .74-.4 1.39-1 1.73V7h1a7 7 0 0 1 7 7h1a1 1 0 0 1 1 1v3a1 1 0 0 1-1 1h-1v1a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-1H2a1 1 0 0 1-1-1v-3a1 1 0 0 1 1-1h1a7 7 0 0 1 7-7h1V5.73c-.6-.34-1-.99-1-1.73a2 2 0 0 1 2-2z"></path><circle cx="8.5" cy="14.5" r="1.5"></circle><circle cx="15.5" cy="14.5" r="1.5"></circle></svg>
+                <span class="skill__name">Web Scraping</span>
+              </div>
+              <div class="skill">
+                <svg class="skill__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2a2 2 0 0 1 2 2c0 .74-.4 1.39-1 1.73V7h1a7 7 0 0 1 7 7h1a1 1 0 0 1 1 1v3a1 1 0 0 1-1 1h-1v1a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-1H2a1 1 0 0 1-1-1v-3a1 1 0 0 1 1-1h1a7 7 0 0 1 7-7h1V5.73c-.6-.34-1-.99-1-1.73a2 2 0 0 1 2-2z"></path><circle cx="8.5" cy="14.5" r="1.5"></circle><circle cx="15.5" cy="14.5" r="1.5"></circle></svg>
+                <span class="skill__name">Prompt Engineering</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Tools -->
+          <div class="skills__category">
+            <h3 class="skills__category-title" data-i18n="skills.tools">Ferramentas</h3>
+            <div class="skills__grid">
+              <div class="skill">
+                <svg class="skill__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="3"></circle><path d="M12 1v6m0 6v6m-7-7h6m6 0h6"></path></svg>
+                <span class="skill__name">Git</span>
+              </div>
+              <div class="skill">
+                <svg class="skill__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="3"></circle><path d="M12 1v6m0 6v6m-7-7h6m6 0h6"></path></svg>
+                <span class="skill__name">Streamlit</span>
+              </div>
+              <div class="skill">
+                <svg class="skill__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="3"></circle><path d="M12 1v6m0 6v6m-7-7h6m6 0h6"></path></svg>
+                <span class="skill__name">VS Code</span>
+              </div>
+              <div class="skill">
+                <svg class="skill__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="3"></circle><path d="M12 1v6m0 6v6m-7-7h6m6 0h6"></path></svg>
+                <span class="skill__name">Linux</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Domain -->
+          <div class="skills__category">
+            <h3 class="skills__category-title" data-i18n="skills.domain">Domínio Técnico</h3>
+            <div class="skills__grid">
+              <div class="skill">
+                <svg class="skill__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path></svg>
+                <span class="skill__name">Hidrologia</span>
+              </div>
+              <div class="skill">
+                <svg class="skill__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path></svg>
+                <span class="skill__name">Segurança de Barragens</span>
+              </div>
+              <div class="skill">
+                <svg class="skill__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path></svg>
+                <span class="skill__name">Meio Ambiente</span>
+              </div>
+              <div class="skill">
+                <svg class="skill__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path></svg>
+                <span class="skill__name">Análise de Séries Temporais</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section class="section" id="contact">
+      <div class="container">
+        <h2 class="section__title" data-i18n="contact.title">Contato</h2>
+        <p class="contact__cta" data-i18n="contact.cta">Quer resolver um problema do setor com tecnologia? Vamos conversar.</p>
+        <div class="contact__links">
+          <a href="mailto:gabriel.furiati@icloud.com" class="contact__link" aria-label="Email">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="4" width="20" height="16" rx="2"></rect><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"></path></svg>
+            <span data-i18n="contact.email">Email</span>
+          </a>
+          <a href="https://www.linkedin.com/in/gabrielfuriati" target="_blank" rel="noopener noreferrer" class="contact__link" aria-label="LinkedIn">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path><rect x="2" y="9" width="4" height="12"></rect><circle cx="4" cy="4" r="2"></circle></svg>
+            <span data-i18n="contact.linkedin">LinkedIn</span>
+          </a>
+          <a href="https://github.com/Furiatii" target="_blank" rel="noopener noreferrer" class="contact__link" aria-label="GitHub">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg>
+            <span data-i18n="contact.github">GitHub</span>
+          </a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <p>
+        <span data-i18n="footer.made">Feito com</span>
+        <svg class="footer__heart" width="16" height="16" viewBox="0 0 24 24" fill="currentColor" stroke="none"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"></path></svg>
+        <span data-i18n="footer.by">por Gabriel Furiati</span>
+      </p>
+    </div>
+  </footer>
+
+  <script src="js/i18n.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
