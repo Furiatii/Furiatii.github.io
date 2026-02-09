@@ -42,27 +42,6 @@
   "exp3.item2": "Building visualizations and writing technical reports",
 
   "projects.title": "Projects",
-  "project1.title": "Multi-Source Hydrological Scraper",
-  "project1.description": "Automated data collection system for hydrological and meteorological data from multiple public sources, replacing hours of manual work by INEA analysts.",
-  "project1.tag1": "Python",
-  "project1.tag2": "BeautifulSoup",
-  "project1.tag3": "requests",
-  "project1.tag4": "pandas",
-  "project1.status": "Used in production at INEA",
-
-  "project2.title": "Hydrological Dashboard",
-  "project2.description": "Web application for interactive visualization of streamflow, water level, and precipitation data, integrating sources collected by the scraper.",
-  "project2.tag1": "Python",
-  "project2.tag2": "Streamlit",
-  "project2.tag3": "Plotly",
-  "project2.tag4": "APIs",
-  "project2.status": "In development",
-
-  "project3.title": "Data Analysis: INCRA Census 2025",
-  "project3.description": "Data cleaning and statistical analysis pipeline for the rural settlements census, as part of academic research at UFF.",
-  "project3.tag1": "Python",
-  "project3.tag2": "pandas",
-  "project3.tag3": "Power BI",
 
   "project4.title": "Sensor Data QC Tool",
   "project4.description": "Interactive quality control tool for time series sensor data. Detects gaps, outliers, and drift, cleans the data, and exports corrected CSV with report.",
